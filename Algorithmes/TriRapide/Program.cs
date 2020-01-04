@@ -6,7 +6,8 @@ namespace TriRapide
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // TODO
+            Console.WriteLine("Working progress...");
         }
     }
 }

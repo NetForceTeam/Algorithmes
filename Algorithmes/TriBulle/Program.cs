@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Algorithme
+namespace AlgorithmeTri
 {
-    class TriBulle
+    class AlgoTriBulle
     {
         static int[] table;
         static void AfficherTable()
@@ -10,24 +10,27 @@ namespace Algorithme
             int n = table.Length - 1;
             for (int i = 1; i <= n; i++)
             {
-                System.Console.Write(table[i] + " , ");
+                Console.Write(table[i] + " , ");
             }
-            System.Console.WriteLine();
+            Console.WriteLine();
         }
         static void InitTable()
         {
-            int[] tableau = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            int[] tableau = { 1, 0, 5, 3, 8, 2, 6, 7, 9, 4 };
             table = tableau;
         }
         static void Main(string[] args)
         {
             InitTable();
-            System.Console.WriteLine("Tableau initial :");
+            Console.WriteLine("Tableau initial :");
+            
             AfficherTable();
+            
             TriBulle();
-            System.Console.WriteLine("Tableau une fois trié :");
+            Console.WriteLine("Tableau une fois trié :");
+            
             AfficherTable();
-            System.Console.Read();
+            Console.Read();
         }
         static void TriBulle()
         {
