@@ -1,5 +1,11 @@
 ﻿# Algorithmes
 
+
+
+# Algorithmes de calcul
+
+
+
 Algorithmes de calcul > Nombres de Armstrong
 ---------------------------------------------
 
@@ -120,10 +126,29 @@ distinctes ou une racine double. Dans l'algèbre des quaternions, une équation 
 avoir une infinité de solutions.
 
 
-Algorithmes de tri > Dichotomique > Smoothsort
----------------------------------------------
+Algorithmes de calcul > Valeur absolue d'un nombre réel
+-------------------------------------------------------
 
-TODO...
+En mathématiques, la valeur absolue (parfois appelée module, c'est-à-dire mesure) d'un nombre réel 
+est sa valeur numérique sans tenir compte de son signe. On peut la comprendre comme sa distance 
+de zéro ; ou comme sa valeur quantitative, à laquelle le signe ajoute une idée de polarité ou
+de sens (comme le sens d'un vecteur).
+
+Par exemple, la valeur absolue de -4 est 4 et celle de +4 est 4.
+Pour éviter d'écrire "la valeur absolue de...", on utilise la notation |...|.
+Ainsi, on écrit : |-4| = |+4| = 4
+
+En programmation informatique, l'identificateur utilisé pour désigner la valeur absolue est usuellement abs.
+
+
+
+
+
+
+# Algorithmes de tri > Quadratiques >
+
+
+
 
 Algorithmes de tri > Quadratiques > Tri à bulles (Bubble sort)
 -----------------------------------------------------------------------
@@ -131,11 +156,6 @@ Algorithmes de tri > Quadratiques > Tri à bulles (Bubble sort)
 Le tri à bulles ou tri par propagation est un algorithme de tri qui consiste à faire remonter 
 progressivement les plus grands éléments d'un tableau, comme les bulles d'air remontent à la 
 surface d'un liquide.
-
-Algorithmes de tri > Linéaires > Tri comptage (Tri casier, Counting sort)
----------------------------------------------
-
-TODO...
 
 Algorithmes de tri > Quadratiques > Tri de Shell (Shell sort)
 -----------------------------------------------------------------------
@@ -148,12 +168,6 @@ toujours ouverts à ce sujet.
 
 Le nom vient de son inventeur Donald Shell (en) (1924-2015) qui publia l'algorithme 
 dans le numéro de juillet 1959 de Communications of the ACM.
-
-Algorithmes de tri > Dichotomique > Tri fusion (Merge sort)
------------------------------------------------------------
-
-Cette implémentation effectue une fusion vers un tableau temporaire puis recopie les données 
-fusionnées dans le tableau principal.
 
 Algorithmes de tri > Quadratiques > Tri par insertion (Insertion sort)
 -----------------------------------------------------------------------
@@ -180,6 +194,22 @@ Le tri par sélection (ou tri par extraction) est un algorithme de tri par compa
 Cet algorithme est simple, mais considéré comme inefficace, car il s'exécute en temps 
 quadratique en le nombre d'éléments à trier, et non en temps pseudo linéaire.
 
+
+
+
+
+
+
+# Algorithmes de tri > Dichotomique >
+
+
+Algorithmes de tri > Dichotomique > Tri fusion (Merge sort)
+-----------------------------------------------------------
+
+Cette implémentation effectue une fusion vers un tableau temporaire puis recopie les données 
+fusionnées dans le tableau principal.
+
+
 Algorithmes de tri > Dichotomique > Tri par tas (Heapsort)
 ---------------------------------------------
 
@@ -190,16 +220,23 @@ Algorithmes de tri > Dichotomique > Tri rapide (Quicksort)
 
 TODO...
 
-Algorithmes de calcul > Valeur absolue d'un nombre réel
--------------------------------------------------------
+Algorithmes de tri > Dichotomique > Smoothsort
+---------------------------------------------
 
-En mathématiques, la valeur absolue (parfois appelée module, c'est-à-dire mesure) d'un nombre réel 
-est sa valeur numérique sans tenir compte de son signe. On peut la comprendre comme sa distance 
-de zéro ; ou comme sa valeur quantitative, à laquelle le signe ajoute une idée de polarité ou
-de sens (comme le sens d'un vecteur).
+TODO...
 
-Par exemple, la valeur absolue de -4 est 4 et celle de +4 est 4.
-Pour éviter d'écrire "la valeur absolue de...", on utilise la notation |...|.
-Ainsi, on écrit : |-4| = |+4| = 4
 
-En programmation informatique, l'identificateur utilisé pour désigner la valeur absolue est usuellement abs.
+
+
+
+
+# Algorithmes de tri > Linéaires >
+
+
+
+Algorithmes de tri > Linéaires > Tri comptage (Tri casier, Counting sort)
+---------------------------------------------
+
+TODO...
+
+
